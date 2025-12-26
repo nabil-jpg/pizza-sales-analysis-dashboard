@@ -27,6 +27,7 @@ Slide 4 – KPI Overview
 What happened?
 <img width="378" height="90" alt="Screenshot 2025-12-26 155155" src="https://github.com/user-attachments/assets/4b32440e-cd28-43e3-ae08-07a4bca05056" />
 
+
 The total revenue shows the overall business performance, while the total number of orders reflects customer demand.
 The average order value indicates how much customers spend per transaction on average.
 
@@ -34,6 +35,7 @@ Quantity per Category
 
 Which pizza category is most popular?
 <img width="521" height="403" alt="Screenshot 2025-12-26 162237" src="https://github.com/user-attachments/assets/0df11830-fcb1-4f6b-a38d-84e54b26cb22" />
+
 
 
 Classic and Supreme pizzas dominate total sales quantity, indicating that customers prefer traditional and premium pizza types compared to other categories.
@@ -44,6 +46,7 @@ Which category generates the highest revenue?
 <img width="515" height="397" alt="Screenshot 2025-12-26 162903" src="https://github.com/user-attachments/assets/90028877-76b8-47d1-8860-770193362355" />
 
 
+
 Although sales quantities vary, Classic and Supreme categories contribute the highest revenue, showing a strong relationship between popularity and profitability.
 
  Revenue Trend per Month
@@ -52,12 +55,14 @@ How does revenue change over time?
 <img width="511" height="395" alt="Screenshot 2025-12-26 164248" src="https://github.com/user-attachments/assets/9d7321f6-ac3d-4094-a6b8-0c84bad39498" />
 
 
+
 Monthly revenue shows fluctuations throughout the year, with certain months experiencing higher sales. This pattern may indicate seasonal demand or promotional effects.
 
  Top 10 Pizza by Quantity
 
 What are the best-selling pizzas?
 <img width="503" height="391" alt="Screenshot 2025-12-26 164844" src="https://github.com/user-attachments/assets/499f3b9e-851e-4ba1-b40b-f746a46d775b" />
+
 
 
 A small number of pizza variants consistently dominate sales, suggesting key products that should be prioritized in promotions and inventory planning.
