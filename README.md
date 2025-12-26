@@ -22,7 +22,7 @@ What are the top 10 best-selling pizzas?
 
 How does revenue change over time?
 
-Slide 4 – KPI Overview
+ KPI Overview
 
 What happened?
 <img width="378" height="90" alt="Screenshot 2025-12-26 155155" src="https://github.com/user-attachments/assets/4b32440e-cd28-43e3-ae08-07a4bca05056" />
