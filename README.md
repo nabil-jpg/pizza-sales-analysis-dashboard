@@ -1,125 +1,76 @@
-# 🍕 Pizza Sales Performance Dashboard
+🍕  Pizza Sales Anlalysis Dashboard
 
-## 📌 Project Overview
+Background
 
-Project ini menganalisis performa penjualan pizza menggunakan data transaksi penjualan. Tujuan utama project adalah untuk memahami **pendapatan**, **jumlah pesanan**, **pizza terlaris**, serta **tren penjualan dari waktu ke waktu** melalui **dashboard interaktif**.
+Pizza sales data is analyzed to understand customer behavior, sales performance, and product popularity.
+This analysis helps identify revenue drivers, best-selling pizzas, and monthly sales trends to support business decision-making.
 
-Dashboard ini dirancang untuk menjawab pertanyaan bisnis utama dan membantu pengambilan keputusan berbasis data.
+Slide 3 – Business Questions
 
----
+What do we want to know?
 
-## 🎯 Business Questions
+How much total revenue is generated?
 
-Dashboard ini dibuat untuk menjawab pertanyaan berikut:
+How many orders are received?
 
-1. Berapa **total pendapatan** dari penjualan?
-2. Berapa **jumlah total pesanan** yang diterima?
-3. Berapa **rata-rata pendapatan per pesanan (AOV)**?
-4. Berapa **jumlah pizza terjual per kategori**?
-5. Apa saja **10 pizza terlaris** berdasarkan jumlah penjualan?
-6. Bagaimana **tren pendapatan dari waktu ke waktu (bulanan)**?
-7. Bagaimana **pendapatan pizza berdasarkan kategori dan ukuran pizza**?
+What is the average order value?
 
----
+Which pizza categories sell the most?<img width="503" height="391" alt="Screenshot 2025-12-26 164844" src="https://github.com/user-attachments/assets/eab9aaf7-d71b-4310-ab71-dea70fe125f8" />
 
-## 🗂 Dataset Information
 
-Dataset berisi data transaksi penjualan pizza dengan kolom berikut:
+What are the top 10 best-selling pizzas?
 
-* `quantity`
-* `order_date`
-* `order_time`
-* `unit_price`
-* `total_price`
-* `pizza_size`
-* `pizza_category`
-* `pizza_ingredients`
-* `pizza_name`
+How does revenue change over time?
 
----
+Slide 4 – KPI Overview
 
-## 🛠 Tools & Technologies
+What happened?
+(Visual: KPI Cards)
 
-* **Microsoft Excel / Google Sheets** (Data Cleaning & Pivot Table)
-* **Pivot Table & Pivot Chart**
-* **Dashboard Design**
+The total revenue shows the overall business performance, while the total number of orders reflects customer demand.
+The average order value indicates how much customers spend per transaction on average.
 
----
+Slide 5 – Quantity per Category
 
-## 📊 Dashboard Components
+Which pizza category is most popular?
+(Visual: Pie Chart)
 
-Dashboard terdiri dari beberapa visual utama:
+Classic and Supreme pizzas dominate total sales quantity, indicating that customers prefer traditional and premium pizza types compared to other categories.
 
-### 🔹 KPI Cards
+Slide 6 – Revenue by Pizza Category
 
-* **Total Revenue**
-* **Total Orders**
-* **Average Order Value (AOV)**
+Which category generates the highest revenue?
+(Visual: Bar Chart)
 
-### 🔹 Charts & Visuals
+Although sales quantities vary, Classic and Supreme categories contribute the highest revenue, showing a strong relationship between popularity and profitability.
 
-* **Quantity per Category** (Pie Chart)
-* **Revenue by Pizza Category** (Bar Chart)
-* **Revenue Trend per Month** (Line Chart)
-* **Top 10 Pizza by Quantity** (Column Chart)
+Slide 7 – Revenue Trend per Month
 
-### 🔹 Interactive Filters
+How does revenue change over time?
+(Visual: Line Chart)
 
-* Order Date (Year & Month)
-* Pizza Size
-* Pizza Category
-* Pizza Name
+Monthly revenue shows fluctuations throughout the year, with certain months experiencing higher sales. This pattern may indicate seasonal demand or promotional effects.
 
----
+Slide 8 – Top 10 Pizza by Quantity
 
-## 📈 Key Insights (Example)
+What are the best-selling pizzas?
+(Visual: Bar Chart)
 
-* Kategori **Classic** dan **Supreme** menyumbang pendapatan tertinggi.
-* Beberapa pizza tertentu secara konsisten masuk **Top 10 terlaris**.
-* Terdapat fluktuasi pendapatan bulanan yang dapat digunakan untuk analisis musiman.
+A small number of pizza variants consistently dominate sales, suggesting key products that should be prioritized in promotions and inventory planning.
 
----
+Slide 9 – Business Insight
 
-## 📂 Repository Structure
+What can we learn?
 
-```bash
-Pizza-Sales-Dashboard/
-│
-├── data/
-│   └── pizza_sales.csv
-│
-├── dashboard/
-│   └── pizza_sales_dashboard.xlsx
-│
-├── images/
-│   └── dashboard_preview.png
-│
-└── README.md
-```
+Focus marketing on top-selling pizzas
 
----
+Maintain stock for high-demand categories
 
-## 🚀 How to Use
+Use monthly trends to plan promotions
 
-1. Download file dashboard (`.xlsx`)
-2. Buka menggunakan Microsoft Excel
-3. Gunakan slicer/filter untuk eksplorasi data
+Slide 10 – Conclusion
 
----
+Conclusion
 
-## 👤 Author
-
-**Nabil Asmi Saputra**
-Data Analyst Enthusiast | SQL | Python | Data Visualization
-
----
-
-## ⭐ Notes
-
-Project ini cocok sebagai **portfolio Data Analyst / Data Analyst Intern** untuk menunjukkan kemampuan:
-
-* Data understanding
-* Business insight
-* Dashboard & storytelling
-
-Jika project ini membantu, jangan lupa ⭐ repository ini 🙌
+This analysis provides insights into sales performance, customer preferences, and revenue trends.
+The dashboard and analysis can support better pricing, promotion, and product strategy decisions.
